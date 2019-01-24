@@ -4,14 +4,14 @@
 $TRUSTOCEAN_LANG['trustoceanssl']['clientnav']['mysslcertificate'] = "管理证书";
 /* 新的语言文件for TRUSTOCEANSSL 产品模块*/
 # 第一步提交CSR
-$TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['title'] = "第一步： 创建证书密钥对（CSR&KEY）";
+$TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['title'] = "第一步： 创建CSR";
 $TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['desc'] = "您可以粘贴已经创建好的CSR代码或者使用我们的X509助手进行在线创建，记得妥善保存您的私钥";
 $TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['uploadcsr'] = "上传已生成的CSR代码";
 $TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['generatecsr'] = "使用X509助手在线创建";
 $TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['inputcsr'] = "填写CSR代码";
 $TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['csrplaceholder'] = "输入已经创建的CSR代码内容（支持ECC和RSA）";
-$TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['commonname'] = "主题名称 (证书主域名)";
-$TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['commonnameplaceholder'] = "主题名称 用于证书主域名";
+$TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['commonname'] = "主域名";
+$TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['commonnameplaceholder'] = "主域名（默认显示域名）";
 $TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['emailaddress'] = "邮箱地址";
 $TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['emailaddressplaceholder'] = "请您输入您的邮箱地址";
 $TRUSTOCEAN_LANG['trustoceanssl']['enroll']['setupone']['signtype'] = "签名类型";
